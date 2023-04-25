@@ -5,6 +5,7 @@ package.json
 tags
 .idea
 /configs/config.json
+/configs/RL_config2.json
 README_internal.md
 
 # Coverage.py output
@@ -14,3 +15,4 @@ htmlcov/
 # Python memory_profiler output
 mprofile_*.dat
 azdock_run.log
+runs/

@@ -87,3 +87,7 @@ Once you have a configuration and your license can be read, you can run the test
 ```
 $ python main_test.py
 ```
+
+Changes by Hossam Ashtawy
+-------------------------
+* Updated `reinvent.yml` on April 25, 2013 to fix issues with installing the packages torch 1.7 & CUDA 11

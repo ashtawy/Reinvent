@@ -1,7 +1,6 @@
 name: reinvent.v3.2
 channels:
   - rdkit
-  - pytorch
   - openeye
   - conda-forge
   - anaconda
@@ -157,7 +156,6 @@ dependencies:
   - python=3.7.7
   - python-dateutil=2.8.1
   - python_abi=3.7
-  - pytorch=1.7.1
   - pytz=2019.3
   - pyzmq=20.0.0
   - qt=5.9.7
@@ -219,3 +217,5 @@ dependencies:
     - tensorflow-estimator==1.15.1
     - termcolor==1.1.0
     - werkzeug==1.0.0
+    - torch==1.7.0+cu110
+    - --extra-index-url https://download.pytorch.org/whl/cu110
